@@ -1,0 +1,19 @@
+az account show
+az account set --subscription {dea34611-efea-41c3-8e69-a25029c0db89}
+az account list
+git clone https://github.com/microsoft/MCW-Cloud-native-applications.git
+rm -rf MCW-Cloud-native-applications/.git
+cd ~/MCW-Cloud-native-applications/Hands-on\ lab/lab-files/developer/
+ls
+cd ./MCW-Cloud-native-applications/
+dir
+cd './Hands-on lab/'
+dir
+cd ./lab-files/
+dir
+cd ./developer/
+ls
+git config --global user.email "huang.yingja@msa.hinet.net"
+git config --global user.name "huangyingja"
+git init
+git add .
